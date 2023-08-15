@@ -58,27 +58,6 @@ See a [live demo](https://nextjs-messenger-clone-tasin5541.vercel.app/) on Verce
    Add `test` at the end of the connection string (ex. `connectionstring/test`) <br>
    <img src="public/images/guides/mongo5.webp" style="width: 800px;">
 
-### Setup GitHub Authentication
-
-1. Navigate to https://github.com/ <br>
-   Click on your profile dropdown on the top right <br>
-   Click `Settings` <br>
-   <img src="public/images/guides/git1.webp" style="width: 800px;">
-
-2. Click `Developer settings` <br>
-   Click `OAuth Apps` <br>
-   Click `New OAuth App` <br>
-   <img src="public/images/guides/git2.webp" style="width: 800px;">
-
-3. Give a name to your app <br>
-   Type `http://localhost:3020/` in the `Homepage URL` and `Authorization callback URL` fields. <br>
-   Click "Register application" <br>
-   <img src="public/images/guides/git3.webp" style="width: 800px;">
-
-4. Copy the `Client Id` and note it down <br>
-   Click on `Generate a new client secret`, copy and note it down <br>
-   <img src="public/images/guides/git4.webp" style="width: 800px;">
-
 ### Setup Google Authentication
 
 1. Navigate to https://console.cloud.google.com and create a new project <br>
